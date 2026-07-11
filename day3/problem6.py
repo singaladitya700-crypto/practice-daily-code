@@ -12,4 +12,4 @@ for num in numbers:
         odd += 1
 
 print(even)
-print(odd)
+print(odd) 

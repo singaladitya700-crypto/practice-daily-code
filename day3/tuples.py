@@ -12,3 +12,6 @@ print(len(student))
 
 for i in student:
     print(i)
+
+
+#you know what guys tuple's are immutable means we can't change the element of tuples.
