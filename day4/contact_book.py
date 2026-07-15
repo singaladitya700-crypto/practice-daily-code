@@ -3,6 +3,9 @@ contacts = {
     "Rahul": "9876543210",
     "Aman": "9999999999"
     }
+
+cancel = ["done","cancel",]
+
 while True:
     print("===== Contact Book =====")
     print("1. Add Contact")
@@ -15,8 +18,7 @@ while True:
 
     choice = int(input("Enter your choice: "))
 
-    cancel = ["done","cancel",]
-
+    
     if choice == 1:
         name = input("enter a name :")
 
@@ -64,4 +66,3 @@ while True:
         print("Thank you for using contact book")
         break
 
-print(contacts)
